@@ -1,0 +1,31 @@
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+> POST /dashboard-project-manajement/login.php HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.7.1
+> Accept: */*
+> Content-Length: 39
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [39 bytes data]
+* upload completely sent off: 39 bytes
+< HTTP/1.1 302 Found
+< Date: Wed, 12 Aug 2026 16:06:34 GMT
+< Server: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1
+< X-Powered-By: PHP/8.2.4
+* Added cookie PHPSESSID="74n082phvmsqalgl2784fedgfe" for domain localhost, path /, expire 0
+< Set-Cookie: PHPSESSID=74n082phvmsqalgl2784fedgfe; path=/
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Location: dashboard.php
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< 
+100    39    0     0  100    39      0    936 --:--:-- --:--:-- --:--:--   951
+* Connection #0 to host localhost left intact
